@@ -1,7 +1,5 @@
 (function () {
 	getValues();
-
-
 	function getValues() {
 
 		const table = document.querySelector('#table-oximetro');
@@ -31,7 +29,6 @@
 			})
 			.catch(err => console.log(err));
 	}
-
-	setInterval(getValues, 1000)
+	setInterval(getValues, 1000);
 
 })();
